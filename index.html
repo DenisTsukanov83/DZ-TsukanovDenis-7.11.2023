@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Задача №1</h3>
+    <p>
+        Через поля класса реализуются такие характеристики, как марка, цвет, объем топливного бака (в литрах), норма
+        потребления бензина (литров на 100 километров). Предусмотреть, кроме прочего, наличие метода, позволяющего
+        вычислить расстояние, которое проедет автомобиль, израсходовав полный бак бензина (вычисляется как умноженное на
+        100 отношение объема топливного бака к норме потребления бензина). На основе класса путем наследования создать
+        производный класс для описания «грузового автомобиля». Добавить поле, описывающее грузоподъемность автомобиля
+        (максимальная масса груза в тоннах, которую может перевозить автомобиль) и метод, позволяющий вычислить
+        себестоимость транспортировки одной тонны груза на один километр. Результат метода рассчитывается так: норма
+        потребления бензина делится на 100,
+        умножается на цену литра бензина и делится на грузоподъемность. Цена литра бензина передается аргументом методу.
+    </p>
+    <div class="task task-1">
+        <div>
+            <div class="sign">Марка:</div>
+            <div>
+                <input type="text" class="inp" value="">
+            </div>
+            <div class="sign">Цвет:</div>
+            <div>
+                <input type="text" class="inp" value="">
+            </div>
+            <div class="sign">Объем бака:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+            <div class="sign">Расход топлива на 100км:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+            <div class="sign">Грузоподъемность:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+            <div class="sign">Цена топлива:</div>
+            <div>
+                <input type="number" class="inp fuel" value="">
+            </div>
+        </div>
+        <div class="btn">Создать объект</div>
+        <div class="res"></div>
+    </div>
+
+
+    <h3>Задача №2</h3>
+    <p>
+        (произведение значений полей объекта). Предусмотреть наличие конструктора и метода для отображения характеристик объекта. Рассмотрите механизм наследования, создав на основе класса производный с дополнительным полем, определяющим массу «параллелепипеда». Добавить в производном классе метод для вычисления плотности материала, из которого сделан «параллелепипед» (массу нужно поделить на объем).
+    </p>
+    <div class="task task-2">
+        <div>
+            <div class="sign">Ширина:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+            <div class="sign">Высота:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+            <div class="sign">Глубина:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+            <div class="sign">Масса:</div>
+            <div>
+                <input type="number" class="inp" value="">
+            </div>
+        </div>
+        <div class="btn">Создать объект</div>
+        <div class="res"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
